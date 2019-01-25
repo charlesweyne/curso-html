@@ -1,3 +1,98 @@
-<h1> teste1 </h1>
-<h2> teste2 </h2>
-<h2> teste3 </h2>
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- linguagem Português-->
+    <head>
+        <meta charset="utf-8"> <!-- Padrão da linguagem: Português-->
+        <meta name="description" content="Currículo Charles Weyne Alves Milhome">
+        <title> Charles Weyne Alves Milhome </title>
+        <link type="text/css" rel="stylesheet" href="estilo.css">
+        <style>
+            h2{color: red}
+        </style>
+    </head>
+    <body>
+        <!--
+
+        na aula 30: github pages hospedagem de páginas gratuitas na web
+        <p> Parágrafo
+        <br> Quebra de linha
+        <h2> a <h6> Níveis de cabeçalho, no máximo até h6 (o tamanho da fonte vai diminuindo a cada nível que vai utilizado)
+        &spades; Caractere especial Espadas do Baralho 
+        &clubs;  Caractere especial Paus do Baralho 
+        &hearts; Caractere especial Copas do Baralho 
+        &diams;  Caractere especial Ouros do Baralho 
+
+        No site do W3C é possível encontrar uma lista de caracteres especiais para serem utilizados
+        <img src= width height alt> - inserindo imagens (tag de substituição)
+        align= alinhamento. funciona mas não é mais utilizado a partir da versão 4.0 hoje em dia isso é responsabilidade do CSS.
+
+        style="color:red" estilo inline (linha por linha) não é o mais recomendado por dar mais trabalho
+        <style></style> estilo interno: aplica a cada bloco associado muito mais vantajoso
+        <link type="text/css" rel="stylesheet" href="estilo.css"> folha de estilo externa
+
+        -->
+        
+        <h1> Charles Weyne Alves Milhome &spades; &clubs; &hearts; &diams; </h1>
+        
+            <h2>Contato</h2>
+            <p><img src=Charles.jpg width="400" height="300" alt="Charles Weyne"> </p>
+            <p style="color: chocolate">Telefone: +55 85 988978454<br>
+            E-mail  : charlesweyne@gmail.com<br></p>
+            
+            <h2>Endereço</h2>
+            <pre> <!-- No navegador fica fonte de tamanho fixo, pra programação é muito útil -->
+            Rua João Melo nº 729 Apto 604 Bloco C 
+            Bairro  : Damas 
+            CEP: 60.426-055
+            Fortaleza-CE
+            </pre>
+            <h2 class="formacao">Formação Acadêmica</h2>
+            <p class="formacao"> Graduação: Licenciatura Plena em Matemática</p>
+
+        <!--
+        <ul> Lista não ordenada
+        <ot> Lista ordenada
+        <li> Lista
+        <b> Deixa texto em negrito
+        <i> Deixa texto em itálico
+        &nbsp; Não permite que o texto quebre quando se reduz a página, por exemplo, sem o comando, quando diminuímos a tela, com o texto Professor de Matemática a informação fica assim:
+        Professor de 
+        Matemática
+        Com o comando o texto não quebra e fica Professor de Matemática
+        -->
+        
+            <h2>Experiência Profissional</h2>
+                <ul> 
+                    <li>Atual</li>
+                        <ul>
+                            <li>
+                            <a href="https://www.serpro.gov.br" target="_blank">
+                            <b>SERPRO - Serviço Federal de Processamento de Dados</b></a><br>
+                            Cargo: <i>Analista de Sistemas</i></li>
+                            </ul>
+                    <li>Anteriores</li>
+                        <ol> 
+                            <li><b>Colégio Maria Ester II</b><br>
+                            Cargo: <i>Professor&nbsp;de&nbsp;Matemática</i></li>
+                            <li><b>Unisoap Cosméticos LTDA</b><br>
+                            Cargo: <i>Promotor de Vendas</i></li>
+                        </ol>
+                </ul>
+        
+        <a href="Exerc%C3%ADcios%20Potencia%C3%A7%C3%A3o.doc" target="_blank">Teste1</a>
+        <a href="Execu%C3%A7%C3%A3o%20A55004L%20-%20SIAFIPP" target="_blank">Teste2</a>
+                
+        <!--
+        <dl> Lista de definições
+        <dt> Lista de termos
+        <dd> Descrição dos termos 
+        <a href> Hiperlink
+        target="_blank" abre o link em outro navegador
+        -->
+        <dl> 
+            <dt>.htm</dt> 
+            <dt>.html</dt>
+            <dd>Terminação para arquivos texto com conteúdo html.</dd> 
+            <dd>No ambiente Windows, .html ou .htm são complementos do nome do arquivo.</dd>
+        </dl>
+    </body>
+</html>
